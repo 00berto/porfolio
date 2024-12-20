@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(to bottom right, #f6d365, #fda085);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  overflow: hidden;
+}
+
+.circle {
+  background: #ffffff80;
+  border-radius: 50%;
+  transition: transform .5s, opacity .5s;
+  position: absolute;
+}
+
+.circle.small {
+  width: 100px;
+  height: 100px;
+  top: 10%;
+  left: 20%;
+}
+
+.circle.medium {
+  width: 200px;
+  height: 200px;
+  bottom: 15%;
+  right: 25%;
+}
+
+.circle.large {
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.exploded {
+  opacity: 0;
+  transform: scale(2)translate(0, -200px);
+}
+/*# sourceMappingURL=index.7ccc7f09.css.map */

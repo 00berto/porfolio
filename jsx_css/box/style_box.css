@@ -1,0 +1,73 @@
+/* CSS SQUARE */
+@import url(../var_root.css);
+
+
+.box {
+    width: 4em;
+    height: 4em;
+    background: -o-linear-gradient(315deg, var(--fondo), var(--color_beige_chiaro));
+    background: linear-gradient(135deg, var(--fondo), var(--color_beige_chiaro));
+    -webkit-transform: translateX(var(--tx)) rotate(var(--r));
+    -ms-transform: translateX(var(--tx)) rotate(var(--r));
+    transform: translateX(var(--tx)) rotate(var(--r));
+    -webkit-transition: -webkit-transform .1s linear;
+    transition: -webkit-transform .1s linear;
+    -o-transition: transform .1s linear;
+    transition: transform .1s linear;
+    transition: transform .1s linear, -webkit-transform .1s linear;
+    will-change: transform;
+    position: absolute;
+    opacity: 0.6;
+}
+
+#box1 {
+    top: 50vh;
+    left: 40vw;
+    z-index: -1;
+
+}
+
+#box2 {
+    top: 10vh;
+    left: 20vw;
+    z-index: -1;
+}
+
+#box3 {
+    top: 80vh;
+    left: 60vw;
+    z-index: -1;
+}
+
+#box4 {
+    top: 25vh;
+    right: 20vw;
+    z-index: -1;
+}
+
+
+#box5 {
+    top: 50vh;
+    left: 40vw;
+    z-index: -1;
+
+}
+
+#box6 {
+    top: 10vh;
+    left: 20vw;
+    z-index: -1;
+
+}
+
+#box7 {
+    top: 80vh;
+    left: 40vw;
+    z-index: -1;
+}
+
+#box8 {
+    top: 15vh;
+    right: 20vw;
+    z-index: -1;
+}
