@@ -1,7 +1,7 @@
 {
   "name": "porfolio",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "main.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "chmod +x ./node_modules/.bin/parcel && parcel build index.html"
