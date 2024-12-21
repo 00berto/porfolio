@@ -1,8 +1,8 @@
-@import url(var_root.css);
-@import url(style_carousel.css);
-@import url(style_box.css);
-@import url(contacto.css);
-@import url(reset_tipog.css);
+@import url(./var_root.css);
+@import url(./style_carousel.css);
+@import url(./style_box.css);
+@import url(./contacto.css);
+@import url(./reset_tipog.css);
 
 
 /* animacion inizial */

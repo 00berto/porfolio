@@ -12,7 +12,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@vitejs/plugin-react": "^4.3.4",
     "basicscroll": "^3.0.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -21,6 +20,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.2",
+    "@vitejs/plugin-react": "^4.3.4",
     "process": "^0.11.10",
     "vite": "^6.0.5"
   }

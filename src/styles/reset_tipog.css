@@ -1,6 +1,6 @@
 /* PANTALLA PEQUEÑA PRIMERO */
 
-@import url(var_root.css);
+@import url(./var_root.css);
 
 * {
     margin: 0;
