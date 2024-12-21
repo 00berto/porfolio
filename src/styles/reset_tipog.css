@@ -1,0 +1,80 @@
+/* PANTALLA PEQUEÑA PRIMERO */
+
+@import url(var_root.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--font-size-32p);
+    /* 29px*/
+    font-weight: 800;
+    padding-bottom: var(--space-ml);
+
+    color: var(--color_white);
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: var(--font-size-29p);
+    padding-bottom: var(--space-m);
+
+    color: var(--fondo);
+
+}
+
+h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: var(--font-size-20p);
+
+    color: var(--color_white);
+}
+
+.carousel h4 {
+    color: var(--fondo);
+
+}
+
+
+p,
+button,
+.skills-p {
+    font-family: "Nunito", sans-serif;
+    font-size: var(--font-size-16p);
+
+    color: var(--fondo);
+}
+
+b {
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    color: var(--color_beige);
+    opacity: 0.6;
+}
+
+button {
+    padding: var(--space-xs);
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 1.5px rgba(2, 0, 1, 0.2),
+        8px 8px 1.5px rgba(2, 0, 1, 0.15);
+    box-shadow: 4px 4px 1.5px rgba(2, 0, 1, 0.2),
+        8px 8px 1.5px rgba(2, 0, 1, 0.15);
+    border-color: var(--fondo);
+
+}
+
+button:hover {
+    color: var(--color_beige_chiaro);
+    background-color: var(--fondo);
+
+}
+
+
+a {
+    text-decoration: none;
+}
