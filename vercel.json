@@ -8,9 +8,5 @@
       }
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "/" }],
-
-  "scripts": {
-    "build": "chmod +x ./node_modules/.bin/parcel && npm run build"
-  }
+  "routes": [{ "src": "/(.*)", "dest": "/" }]
 }
