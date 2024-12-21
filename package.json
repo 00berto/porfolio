@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +12,6 @@
   "description": "",
   "dependencies": {
     "basicscroll": "^3.0.4",
-    "parcel": "^2.13.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-slick": "^0.30.2",
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.2",
+    "parcel": "^2.13.3",
     "process": "^0.11.10"
   }
 }
