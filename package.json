@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "chmod +x ./node_modules/.bin/parcel && parcel build index.html"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "basicscroll": "^3.0.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -19,7 +21,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.2",
-    "parcel": "^2.13.3",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "vite": "^6.0.5"
   }
 }
