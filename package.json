@@ -1,7 +1,10 @@
 {
   "name": "porfolio",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "main.jsx",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
