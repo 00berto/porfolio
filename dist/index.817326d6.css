@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(to right, #2283db, #2b3adb, #1f26db, #3176db);
+}
+
+.square-random {
+  opacity: .3;
+  z-index: -1;
+  background: linear-gradient(#1f26db, #2283db);
+  animation: 30s linear infinite rotate;
+  position: absolute;
+  overflow: hidden;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=index.817326d6.css.map */
