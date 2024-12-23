@@ -94,7 +94,6 @@ body {
     height: 100%;
     box-sizing: border-box;
     overflow: hidden;
-    margin-bottom: 20px;
 }
 
 .portada::before,
@@ -108,7 +107,9 @@ body {
     background-size: 100% 100%;
     background-color: var(--fondo);
     z-index: -10;
-    
+}
+.portada h4{
+    margin-bottom: 20px;
 }
 
 .skills,
