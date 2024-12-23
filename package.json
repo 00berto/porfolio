@@ -7,7 +7,7 @@
   },
   "scripts": {
     "preinstall": "rm -rf node_modules && npm cache clean --force",
-    "build": "vite build",
+    "build": "npx vite build",
     "dev": "vite",
     "preview": "vite preview"
   },
