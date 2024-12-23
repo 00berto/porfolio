@@ -93,7 +93,7 @@ body {
     height: 100%;
     min-height: 100vh;
     overflow: hidden;
-    margin-button:1,2em
+    margin-botton:1,2em
 }
 
 .portada::before,
@@ -132,6 +132,7 @@ body {
     display: -ms-grid;
     display: grid;
     text-align: center;
+    color:var(--color_beige_chiaro);
     padding: var(--space-m);
 }
 
