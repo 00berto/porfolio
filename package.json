@@ -6,8 +6,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "preinstall": "rm -rf node_modules && npm cache clean --force",
-    "build": "npm vite build",
+    "build": "vite build",  // Corrige el comando de build
     "dev": "vite",
     "preview": "vite preview"
   },
