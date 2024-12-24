@@ -91,7 +91,7 @@ body {
 
 .portada {
     width: 100%;
-    height: 98vh;
+    height: 95vh;
     /*box-sizing: border-box;*/
     overflow: hidden;
 }
@@ -235,14 +235,17 @@ footer {
     h4 {
         font-size: var(--font-size-18p);
     }
-    
+    .grid-proyectos {
+        -ms-grid-columns: 1fr, 1fr;
+        grid-template-columns: 1fr, 1fr;
+    }
 }
 
 @media screen and (max-width: 768px) {
     
     .grid-proyectos {
-        -ms-grid-columns: (1fr, 1fr);
-        grid-template-columns: repeat(2, 1fr);
+        -ms-grid-columns:  1fr;
+        grid-template-columns: 1fr;
     }
 }
 
