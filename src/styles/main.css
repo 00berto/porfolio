@@ -228,11 +228,21 @@ footer {
 
 /* --------- MEDIA QUERY --------- */
 
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+    h1 {
+        font-size: var(--font-size-32p);
+    }
+    h4 {
+        font-size: var(--font-size-18p);
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
     
     .grid-proyectos {
-        -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+        -ms-grid-columns: (1fr, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
