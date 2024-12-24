@@ -1,8 +1,8 @@
-import Icon1 from "./assets/image/html-1.svg";
-import Icon2 from "./assets/image/css-3.svg";
-import Icon3 from "./assets/image/javascript-1.svg";
-import Icon4 from "./assets/image/react-2.svg";
-import Icon5 from "./assets/image/python-5.svg";
+import Icon1 from "./html-1.svg";
+import Icon2 from "./css-3.svg";
+import Icon3 from "./javascript-1.svg";
+import Icon4 from "./react-2.svg";
+import Icon5 from "./python-5.svg";
 
 export const cardDetails = {
   0: {
