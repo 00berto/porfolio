@@ -230,13 +230,20 @@ footer {
 /* --------- MEDIA QUERY --------- */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     .grid-proyectos {
         -ms-grid-columns: (1fr, 1fr);
         grid-template-columns: repeat(2, 1fr);
         -ms-grid-columns:  1fr;
         grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+    h4{
+        font-size:1em;
+    }
+    h1{
+        font-size:1,25em;
     }
 }
 
