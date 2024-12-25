@@ -237,7 +237,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         -ms-grid-columns:  1fr;
         grid-template-columns: 1fr;
-        max-width: 500px;
+        
     }
     h4{
         font-size:1em;
@@ -248,10 +248,11 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    /*
+    
     .grid-proyectos {
         grid-template-columns: repeat(2, 1fr);
-    }*/
+        max-width: 500px;
+    }
 
     .portada-h {
         margin: auto;
@@ -269,7 +270,7 @@ footer {
 
 
     h4 {
-        font-size: var(--font-size-24p);
+        /*font-size: var(--font-size-24p);*/
         padding: auto;
     }
 
