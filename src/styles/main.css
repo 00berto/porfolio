@@ -229,29 +229,29 @@ footer {
 
 /* --------- MEDIA QUERY --------- */
 
+/* and (orientation: landscape) */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 799px) {
 
     .grid-proyectos {
-        -ms-grid-columns: (1fr, 1fr);
-        grid-template-columns: repeat(2, 1fr);
-        -ms-grid-columns:  1fr;
-        grid-template-columns: 1fr;
-        
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;        
     }
+
     h4{
         font-size:1em;
     }
     h1{
         font-size:1,25em;
     }
+    
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 800px) {
     
     .grid-proyectos {
         grid-template-columns: repeat(2, 1fr);
-        max-width: 500px;
     }
 
     .portada-h {
@@ -270,7 +270,7 @@ footer {
 
 
     h4 {
-        /*font-size: var(--font-size-24p);*/
+        font-size: var(--font-size-24p);
         padding: auto;
     }
 
@@ -327,6 +327,18 @@ footer {
     p,
     button {
         font-size: var(--font-size-20p);
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+    .grid-proyectos {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+    }
+
+    .game-image img, .fella img, .porfolio img {
+        max-width: 400px; 
     }
 
 }
