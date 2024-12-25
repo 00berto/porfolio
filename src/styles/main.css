@@ -229,7 +229,11 @@ footer {
 
 /* --------- MEDIA QUERY --------- */
 
-/* and (orientation: landscape) */
+@media screen and (orientation: landscape){
+    .portada{
+        height: 100%;
+    }
+}
 
 @media screen and (max-width: 799px) {
 
