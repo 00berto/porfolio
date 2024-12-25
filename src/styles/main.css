@@ -136,6 +136,7 @@ body {
     display: grid;
     text-align: center;
     padding: var(--space-m);
+    overflow: hidden;
 }
 .proyectos h2{
     color: var(--color_beige_chiaro);
