@@ -94,7 +94,7 @@ body {
     /*height: 92vh;*/
     height: 100svh;
     overflow: hidden;
-    margin-top: 2em;
+    /*margin-top: 2em;*/
 }
 
 .portada::before,
