@@ -230,7 +230,7 @@ footer {
 /* --------- MEDIA QUERY --------- */
 
 
-@media screen and (max-width:500px) and (orientation: portrait){
+@media screen and (max-width:500px){
     .grid-proyectos {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;        
