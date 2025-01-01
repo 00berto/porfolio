@@ -93,7 +93,7 @@ body {
     width: 100%;
     height: 100svh;
     overflow: hidden;
-
+    padding-bottom:1.2em;
 }
 
 .portada::before,
@@ -117,7 +117,6 @@ body {
     background-color: var(--color_beige_chiaro);
     width: 100%;
     height: 100%;
-
     color: var(--fondo);
 }
 
@@ -241,7 +240,6 @@ footer {
     }
     .portada{
         height: 100%;
-        margin-bottom: 1.2em;
 }
 
 @media screen and (min-width:501px) and (max-width: 799px)  {
