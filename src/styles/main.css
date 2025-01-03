@@ -43,19 +43,9 @@ body {
 /* retardo skill */
 
 .delayed-animation {
-    animation-delay: 15s;
+    animation-delay: 2s;
 }
 
-/* 
-.delayL-skill {
-    animation: fadeInLeft 3s ease-in-out 15s;
-    -webkit-animation: fadeInLeft 3s ease-in-out 15s;
-}
-
-.delayR-skill {
-    animation: fadeInRight 3s ease-in-out 15s;
-    -webkit-animation: fadeInRight 3s ease-in-out 15s;
-}*/
 
 /* botones */
 .download-cv {
