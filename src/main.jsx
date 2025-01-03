@@ -169,14 +169,22 @@ function revelaSkill() {
   skillLeft.forEach((left) => {
     const skillTopL = left.offsetTop;
     if (scrollTop > skillTopL - windowHeight) {
-      left.classList.add("animate__animated", "animate__fadeInLeft");
+      left.classList.add(
+        "animate__animated",
+        "animate__fadeInLeft",
+        "delayL-skill"
+      );
     }
   });
 
   skillRight.forEach((right) => {
     const skillTopR = right.offsetTop;
     if (scrollTop > skillTopR - windowHeight) {
-      right.classList.add("animate__animated", "animate__fadeInRight");
+      right.classList.add(
+        "animate__animated",
+        "animate__fadeInRight",
+        "delayR-skill"
+      );
     }
   });
 }
