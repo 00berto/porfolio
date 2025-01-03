@@ -125,7 +125,10 @@
     --gap-tablet: 15px;
     --gap-mobile: 10px;
 
-    /* Font */
+
+    /* retardos */
+
+    --animate-delay: 15s;
 }
 
 /* grid container */

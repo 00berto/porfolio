@@ -41,7 +41,7 @@ body {
 }
 
 /* retardo skill */
-
+/*
 .delayL-skill {
     animation: fadeInLeft 3s ease-in-out 15s;
     -webkit-animation: fadeInLeft 3s ease-in-out 15s;
@@ -50,7 +50,7 @@ body {
 .delayR-skill {
     animation: fadeInRight 3s ease-in-out 15s;
     -webkit-animation: fadeInRight 3s ease-in-out 15s;
-}
+}*/
 
 /* botones */
 .download-cv {

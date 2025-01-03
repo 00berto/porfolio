@@ -172,7 +172,7 @@ function revelaSkill() {
       left.classList.add(
         "animate__animated",
         "animate__fadeInLeft",
-        "delayL-skill"
+        "animate__delay"
       );
     }
   });
@@ -183,7 +183,7 @@ function revelaSkill() {
       right.classList.add(
         "animate__animated",
         "animate__fadeInRight",
-        "delayR-skill"
+        "animate__delay"
       );
     }
   });
