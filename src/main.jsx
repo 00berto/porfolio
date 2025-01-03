@@ -156,3 +156,29 @@ function createLightbox(selectors) {
 
 // Uso
 createLightbox([".game-image img", ".fella img", ".porfolio img"]); // añadir, y entre "" poner .nomeClasseCSS img
+
+/* SCROLL Skill */
+
+const skillLeft = document.querySelectorAll(".left");
+const skillRight = document.querySelectorAll(".right");
+
+function revelaSkill() {
+  const windowHeight = window.innerHeight;
+  const scrollTop = window.scrollY;
+
+  skillLeft.forEach((left) => {
+    const skillTopL = left.offsetTop;
+    if (scrollTop > skillTopL - windowHeight) {
+      left.classList.add("animate__animated", "animate__fadeInLeft");
+    }
+  });
+
+  skillRight.forEach((right) => {
+    const skillTopR = right.offsetTop;
+    if (scrollTop > skillTopR - windowHeight) {
+      right.classList.add("animate__animated", "animate__fadeInRight");
+    }
+  });
+}
+window.addEventListener("scroll", reveal);
+revelaSkill();
