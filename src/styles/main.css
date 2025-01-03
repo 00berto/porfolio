@@ -41,7 +41,12 @@ body {
 }
 
 /* retardo skill */
-/*
+
+.delayed-animation {
+    animation-delay: 15s;
+}
+
+/* 
 .delayL-skill {
     animation: fadeInLeft 3s ease-in-out 15s;
     -webkit-animation: fadeInLeft 3s ease-in-out 15s;
