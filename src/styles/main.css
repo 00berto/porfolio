@@ -43,13 +43,13 @@ body {
 /* retardo skill */
 
 .delayL-skill {
-    animation: fadeInLeft 3s ease-in-out 5s;
-    -webkit-animation: fadeInLeft 3s ease-in-out 5s;
+    animation: fadeInLeft 3s ease-in-out 15s;
+    -webkit-animation: fadeInLeft 3s ease-in-out 15s;
 }
 
 .delayR-skill {
-    animation: fadeInRight 3s ease-in-out 5s;
-    -webkit-animation: fadeInRight 3s ease-in-out 5s;
+    animation: fadeInRight 3s ease-in-out 15s;
+    -webkit-animation: fadeInRight 3s ease-in-out 15s;
 }
 
 /* botones */
