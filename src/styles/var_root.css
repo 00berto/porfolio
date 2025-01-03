@@ -14,7 +14,8 @@
     --color_white_scuro: rgba(247, 247, 247, 1);
     --color_white___scuro: #f7f7f7;
 
-    --color_beige_chiaro: #fefae0;
+    /*--color_beige_chiaro: #fefae0;*/
+    --color_beige_chiaro: var(--color_white);
     --color_beige: #faedcd;
 
     --color_azul1: #a6c3ff;
