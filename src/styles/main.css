@@ -100,9 +100,7 @@ body {
     height: 100svh;
     overflow: hidden;
     padding-bottom: 1.2em;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
+
 }
 
 .portada::before,
