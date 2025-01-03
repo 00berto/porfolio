@@ -188,5 +188,5 @@ function revelaSkill() {
     }
   });
 }
-window.addEventListener("scroll", reveal);
+window.addEventListener("scroll", revelaSkill);
 revelaSkill();
