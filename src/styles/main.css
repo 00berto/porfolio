@@ -118,10 +118,10 @@ body {
     background-color: var(--fondo);
     z-index: -10;
 }
-
+/*
 .portada h4 {
     margin-bottom: 20px;
-}
+}*/
 
 .skills,
 .contacto {
