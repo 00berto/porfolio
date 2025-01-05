@@ -18,15 +18,8 @@
     --color_beige_chiaro: var(--color_white);
     --color_beige: #faedcd;
 
-    --color_azul1: #a6c3ff;
-    --color_azul2: #6b97ef;
-    --color_azul3: #5c8fff;
-    --color_azul4: #3c77f6;
-    --color_azul5: #155cf4;
-    --color_azul6: #0a4bd6;
-    --fondo: rgb(21, 96, 130);
-
-    --color_whatsapp: rgba(37, 211, 102, 1);
+    /*--fondo: rgb(21, 96, 130);*/
+    --fondo: rgb(0, 102, 204);
 
     /* Tamaño */
     /* variables de espacio */
