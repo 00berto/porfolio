@@ -118,10 +118,6 @@ body {
     background-color: var(--fondo);
     z-index: -10;
 }
-/*
-.portada h4 {
-    margin-bottom: 20px;
-}*/
 
 .skills,
 .contacto {
@@ -243,10 +239,14 @@ footer {
 /* --------- MEDIA QUERY --------- */
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:650px) {
     .grid-proyectos {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: var(--font-size-20p);
     }
 
     h4 {
@@ -258,7 +258,7 @@ footer {
     }
 }
 
-@media screen and (min-width:501px) and (max-width: 799px) {
+@media screen and (min-width:651px) and (max-width: 799px) {
 
     .grid-proyectos {
         -ms-grid-columns: 1fr;
