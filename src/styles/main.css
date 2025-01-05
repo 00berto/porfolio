@@ -13,6 +13,9 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Título animado */
@@ -100,7 +103,7 @@ body {
     height: 100svh;
     overflow: hidden;
     padding-bottom: 1.2em;
-
+    height: calc(100vh - env(safe-area-inset-bottom));
 }
 
 .portada::before,
