@@ -224,9 +224,8 @@ body {
 /* ---- footer ---- */
 
 footer {
-    text-align: left;
-    -ms-flex-line-pack: left;
-    align-content: left;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .a-berto {
@@ -235,6 +234,18 @@ footer {
 
 }
 
+.language-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.language-nav a:hover {
+    background-color: var(--fondo);
+    color: var(--color_beige_chiaro);
+    border-radius: 5px;
+    padding: 3px;
+}
 
 /* --------- MEDIA QUERY --------- */
 

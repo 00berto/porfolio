@@ -190,3 +190,80 @@ function revelaSkill() {
 }
 window.addEventListener("scroll", revelaSkill);
 revelaSkill();
+
+// Cambio de idioma
+
+const languageSelection = document.querySelectorAll(".language-nav a");
+
+function CambioIdioma(language) {
+  document.getElementById("idioma").innerHTML = {
+    es: "Soy desarrollador web autodidacta apasionado de la programación.<br>Actualmente me encuentro profundizando mis conocimientos dia tras dias lo que me permite descubrir este mundo lleno de nuevas tecnologías y disfutar afrontando nuevos retos.<br> Busco un <b>entorno desafiante</b> donde aplicar mis habilidades y <b>continuar creciendo</b> como desarrollador.<br> Tengo habilidades en <b>Python</b> , <b>JavaScript</b> , <b>React</b> , <b>HTML</b> , <b>CSS</b>.",
+    en: "I am a self-taught web developer with a passion for programming.<br>I am constantly expanding my knowledge, discovering new technologies, and enjoying tackling new challenges.<br>I am seeking a <b>challenging environment</b> where I can apply my skills and <b>continue to grow</b> as a developer.<br> My skills include <b>Python</b>, <b>JavaScript</b>, <b>React</b>, <b>HTML</b>, and <b>CSS</b>.",
+  }[language];
+
+  document.getElementById("idioma-proy").innerHTML = {
+    es: "MIS PROYECTOS",
+    en: "MY PROJECTS",
+  }[language];
+
+  document.getElementById("idioma-contacta").innerHTML = {
+    es: "CONTACTA CONMIGO",
+    en: "CONTACT ME",
+  }[language];
+
+  document.getElementById("idioma-skill").innerHTML = {
+    es: '<li class="left">Capacidad de Aprender</li><li class="right">Capacidades Analíticas</li><li class="left">Resolución de Problemas</li><li class="right">Habilidades de Organización</li><li class="left">Comunicación Efectiva</li><li class="right">Gestión del Tiempo</li><li class="left">Servicio al Cliente</li>',
+    en: '<li class="left">Learning Ability</li><li class="right">Analytical Skills</li><li class="left">Problem Solving</li><li class="right">Organizational Skills</li><li class="left">Effective Communication</li><li class="right">Time Management</li><li class="left">Customer Service</li>',
+  }[language];
+
+  const fellaButton = document.querySelectorAll(".fella-button");
+  fellaButton.forEach(
+    (button) =>
+      (button.innerHTML = {
+        es: "Visitar",
+        en: "Visit",
+      }[language])
+  );
+
+  const gameButton = document.querySelectorAll(".game-button");
+  gameButton.forEach(
+    (button) =>
+      (button.innerHTML = {
+        es: "Jugar",
+        en: "Play",
+      }[language])
+  );
+
+  const imgPorfolio = document.querySelectorAll(".img-porfolio");
+  imgPorfolio.forEach(
+    (button) =>
+      (button.innerHTML = {
+        es: "Mi Porfolio",
+        en: "My Porfolio",
+      }[language])
+  );
+
+  // Actualizar el texto del tooltip del ícono de teléfono
+  const phoneTooltip = document.querySelector(".phone .tooltiptext");
+  phoneTooltip.innerHTML = {
+    es: "Llamame al +34 600299584",
+    en: "Call me at +34 600299584",
+  }[language];
+
+  // Actualizar el texto del tooltip del ícono de Github
+  const githubTooltip = document.querySelector(".github .tooltiptext-github");
+  githubTooltip.innerHTML = {
+    es: "También puede encontrarme en Github",
+    en: "You can also find me on Github",
+  }[language];
+}
+
+languageSelection.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    const language = link.getAttribute("data-lang");
+    CambioIdioma(language);
+  });
+});
+
+CambioIdioma("es");
