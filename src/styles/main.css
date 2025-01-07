@@ -200,7 +200,7 @@ body {
 .porfolio img {
     width: 100%;
     max-width: 300px;
-    height: 200px;
+    height: auto;
     gap: var(--space-m);
     -webkit-transition: -webkit-transform 0.3s ease;
     transition: -webkit-transform 0.3s ease;
