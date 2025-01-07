@@ -157,40 +157,6 @@ function createLightbox(selectors) {
 // Uso
 createLightbox([".game-image img", ".fella img", ".porfolio img"]); // añadir, y entre "" poner .nomeClasseCSS img
 
-/* SCROLL Skill */
-
-const skillLeft = document.querySelectorAll(".left");
-const skillRight = document.querySelectorAll(".right");
-
-function revelaSkill() {
-  const windowHeight = window.innerHeight;
-  const scrollTop = window.scrollY;
-
-  skillLeft.forEach((left) => {
-    const skillTopL = left.offsetTop;
-    if (scrollTop > skillTopL - windowHeight) {
-      left.classList.add(
-        "animate__animated",
-        "animate__fadeInLeft",
-        "delayed-animation"
-      );
-    }
-  });
-
-  skillRight.forEach((right) => {
-    const skillTopR = right.offsetTop;
-    if (scrollTop > skillTopR - windowHeight) {
-      right.classList.add(
-        "animate__animated",
-        "animate__fadeInRight",
-        "delayed-animation"
-      );
-    }
-  });
-}
-window.addEventListener("scroll", revelaSkill);
-revelaSkill();
-
 // Cambio de idioma
 
 const languageSelection = document.querySelectorAll(".language-nav a");
@@ -267,3 +233,74 @@ languageSelection.forEach((link) => {
 });
 
 CambioIdioma("es");
+
+/* SCROLL Skill */
+/*
+const skillLeft = document.querySelectorAll(".left");
+const skillRight = document.querySelectorAll(".right");
+
+function revelaSkill() {
+  const windowHeight = window.innerHeight;
+  const scrollTop = window.scrollY;
+
+  skillLeft.forEach((left) => {
+    const skillTopL = left.offsetTop;
+    if (scrollTop > skillTopL - windowHeight) {
+      left.classList.add(
+        "animate__animated",
+        "animate__fadeInLeft",
+        "delayed-animation"
+      );
+    }
+  });
+
+  skillRight.forEach((right) => {
+    const skillTopR = right.offsetTop;
+    if (scrollTop > skillTopR - windowHeight) {
+      right.classList.add(
+        "animate__animated",
+        "animate__fadeInRight",
+        "delayed-animation"
+      );
+    }
+  });
+}
+window.addEventListener("scroll", revelaSkill);
+revelaSkill();*/
+
+const skillLeft = document.querySelectorAll(".left");
+const skillRight = document.querySelectorAll(".right");
+const skillContainer = document.querySelector(".portada-h"); // Suponiendo que tus habilidades están dentro de un div con clase 'skill-container'
+
+function revelaSkill() {
+  const windowHeight = window.innerHeight;
+  const scrollTop = window.scrollY;
+  const containerTop = skillContainer.offsetTop; // Obtener la posición superior del contenedor
+
+  skillLeft.forEach((left) => {
+    const skillTopL = left.offsetTop;
+    if (scrollTop > skillTopL - windowHeight + 1 && scrollTop > containerTop) {
+      // Verificar el tope de 50px y la posición del contenedor
+      left.classList.add(
+        "animate__animated",
+        "animate__fadeInLeft",
+        "delayed-animation"
+      );
+    }
+  });
+
+  skillRight.forEach((right) => {
+    const skillTopR = right.offsetTop;
+    if (scrollTop > skillTopR - windowHeight + 1 && scrollTop > containerTop) {
+      // Verificar el tope de 50px y la posición del contenedor
+      right.classList.add(
+        "animate__animated",
+        "animate__fadeInRight",
+        "delayed-animation"
+      );
+    }
+  });
+}
+
+window.addEventListener("scroll", revelaSkill);
+revelaSkill();
