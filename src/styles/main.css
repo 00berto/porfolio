@@ -178,6 +178,19 @@ body {
     color: var(--color_beige_chiaro);
 }
 
+.aliendiv {
+    position: relative;
+    display: flex;
+}
+
+.alien-p {
+    color: var(--fondo);
+    font-size: var(--font-size-16p);
+    z-index: 1;
+    position: absolute;
+    top: 80%;
+    padding: 3px;
+}
 
 .porfolio,
 .game-image,
