@@ -230,7 +230,7 @@ body {
 .game-image img:hover,
 .fella img:hover,
 .porfolio img:hover,
-.excel-image:hover {
+.excel-image img:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);

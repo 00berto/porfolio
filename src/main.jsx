@@ -159,7 +159,7 @@ createLightbox([
   ".game-image img",
   ".fella img",
   ".porfolio img",
-  ".excel-image img",
+  ".excel img",
 ]); // añadir, y entre "" poner .nomeClasseCSS img
 
 // Cambio de idioma
