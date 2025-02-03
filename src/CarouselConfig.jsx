@@ -5,6 +5,7 @@ import Icon4 from "./image/react-2.svg";
 import Icon0 from "./image/python-5.svg";
 import Icon6 from "./image/bootstrap-5-1.svg";
 import Icon7 from "./image/vercel-icono.svg";
+import Icon8 from "./image/github.svg";
 //import Icon8 from "./image/python-5.svg";
 
 export const cardDetails = {
@@ -41,5 +42,9 @@ export const cardDetails = {
   6: {
     imgSrc: Icon7,
     title: "Vercel",
+  },
+  7: {
+    imgSrc: Icon8,
+    title: "GitHub",
   },
 };

@@ -155,7 +155,12 @@ function createLightbox(selectors) {
 }
 
 // Uso
-createLightbox([".game-image img", ".fella img", ".porfolio img"]); // añadir, y entre "" poner .nomeClasseCSS img
+createLightbox([
+  ".game-image img",
+  ".fella img",
+  ".porfolio img",
+  ".excel-image img",
+]); // añadir, y entre "" poner .nomeClasseCSS img
 
 // Cambio de idioma
 

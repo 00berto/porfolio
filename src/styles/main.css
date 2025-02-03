@@ -67,7 +67,8 @@ body {
 /* boton proyecto */
 
 .game-image button,
-.fella button {
+.fella button,
+.excel-image button {
     margin-top: var(--space-m);
 }
 
@@ -194,7 +195,8 @@ body {
 
 .porfolio,
 .game-image,
-.fella {
+.fella,
+.excel-image {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -210,7 +212,8 @@ body {
 
 .game-image img,
 .fella img,
-.porfolio img {
+.porfolio img,
+.excel-image img {
     width: 100%;
     max-width: 300px;
     height: auto;
@@ -226,7 +229,8 @@ body {
 
 .game-image img:hover,
 .fella img:hover,
-.porfolio img:hover {
+.porfolio img:hover,
+.excel-image:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -356,6 +360,13 @@ footer {
         grid-column: 3;
     }
 
+    .excel-image img {
+        -ms-grid-row: 1;
+        grid-row: 1;
+        -ms-grid-column: 4;
+        grid-column: 4;
+    }
+
 }
 
 
@@ -392,7 +403,8 @@ footer {
 
     .game-image img,
     .fella img,
-    .porfolio img {
+    .porfolio img,
+    .excel-image img {
         max-width: 400px;
     }
 
