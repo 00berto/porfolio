@@ -196,6 +196,15 @@ function CambioIdioma(language) {
       }[language])
   );
 
+  const excelButton = document.querySelectorAll(".excel-button");
+  excelButton.forEach(
+    (button) =>
+      (button.innerHTML = {
+        es: "Visitar",
+        en: "Visit",
+      }[language])
+  );
+
   const gameButton = document.querySelectorAll(".game-button");
   gameButton.forEach(
     (button) =>
