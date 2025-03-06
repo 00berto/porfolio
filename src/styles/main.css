@@ -310,9 +310,9 @@ footer {
         font-size: 1.1em;
     }
 
-    /*.portada {
+    .portada {
         height: 100%;
-    }*/
+    }
 }
 
 @media screen and (min-width:651px) and (max-width: 799px) {
@@ -430,11 +430,11 @@ footer {
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     }
 
-    /*  .game-image img,
+    .game-image img,
     .fella img,
     .porfolio img,
     .excel-image img {
-        max-width: 400px;
+        max-width: 100%;
     }
-*/
+
 }
