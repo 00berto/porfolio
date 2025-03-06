@@ -2,7 +2,7 @@
 
 @import url(./var_root.css);
 
-/* Contacta conmigo */
+/* Contacta conmigo 
 .icono-content {
     display: -ms-grid;
     display: grid;
@@ -75,8 +75,8 @@
 
 .icono-content img:hover {
     cursor: pointer;
-    /* Cambia il cursore a una mano */
-}
+    /* Cambia il cursore a una mano 
+}*/
 
 .tooltip {
     position: relative;
@@ -85,7 +85,8 @@
 
 .tooltiptext,
 .tooltiptext-gmail,
-.tooltiptext-github {
+.tooltiptext-github,
+.tooltiptext-linkedin {
     font-family: "Nunito", sans-serif;
 
     visibility: hidden;
@@ -115,10 +116,15 @@
     text-justify: auto;
 }
 
+.tooltiptext-linkedin {
+    text-justify: auto;
+}
+
 
 .tooltip:hover .tooltiptext,
 .tooltip:hover .tooltiptext-gmail,
-.tooltip:hover .tooltiptext-github {
+.tooltip:hover .tooltiptext-github,
+.tooltip:hover .tooltiptext-linkedin {
     visibility: visible;
     opacity: 1;
     font-family: "Nunito", sans-serif;
