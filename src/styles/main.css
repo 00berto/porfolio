@@ -94,9 +94,9 @@ body {
     overflow: hidden;
 }
 
-.portada::before {
+/*.portada::before {
     padding-bottom: 1rem;
-}
+}*/
 
 .portada::before,
 .proyectos::before {
