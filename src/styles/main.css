@@ -220,8 +220,6 @@ body {
     height: 100%;
     max-height: 100px;
     object-fit: contain;
-    padding: var(--space-sm);
-    margin: auto;
 }
 
 footer {
