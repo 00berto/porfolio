@@ -395,46 +395,46 @@ footer {
         -ms-grid-column: 4;
         grid-column: 4;
     }
-
-}
 */
-
-    @media screen and (min-width: 1024px) {
-
-        h1,
-        .titulo {
-            font-size: var(--font-size-48p);
-        }
+}
 
 
-        h2 {
-            font-size: var(--font-size-36p);
-        }
+@media screen and (min-width: 1024px) {
+
+    h1,
+    .titulo {
+        font-size: var(--font-size-48p);
+    }
 
 
-        h4 {
-            font-size: var(--font-size-32p);
-            padding: auto;
-        }
+    h2 {
+        font-size: var(--font-size-36p);
+    }
 
-        p,
-        button {
-            font-size: var(--font-size-20p);
-        }
 
-        .grid {
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        }
+    h4 {
+        font-size: var(--font-size-32p);
+        padding: auto;
+    }
 
-        .grid-proyectos {
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        }
+    p,
+    button {
+        font-size: var(--font-size-20p);
+    }
 
-        /*  .game-image img,
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+    .grid-proyectos {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+
+    /*  .game-image img,
     .fella img,
     .porfolio img,
     .excel-image img {
         max-width: 400px;
     }
 */
-    }
+}

@@ -162,8 +162,8 @@ const languageSelection = document.querySelectorAll(".language-nav a");
 
 function CambioIdioma(language) {
   document.getElementById("idioma").innerHTML = {
-    es: "Soy desarrollador web autodidacta apasionado de la programación.<br>Actualmente me encuentro profundizando mis conocimientos dia tras dia lo que me permite descubrir este mundo lleno de nuevas tecnologías y disfutar afrontando nuevos retos.<br> Busco un <b>entorno desafiante</b> donde aplicar mis habilidades y <b>continuar creciendo</b> como desarrollador.<br> Tengo habilidades en <b>Python</b> , <b>JavaScript</b> , <b>React</b> , <b>HTML</b> , <b>CSS</b>.<br><br>",
-    en: "I am a self-taught web developer with a passion for programming.<br>I am constantly expanding my knowledge, discovering new technologies, and enjoying tackling new challenges.<br>I am seeking a <b>challenging environment</b> where I can apply my skills and <b>continue to grow</b> as a developer.<br> My skills include <b>Python</b>, <b>JavaScript</b>, <b>React</b>, <b>HTML</b>, and <b>CSS</b>.<br><br>",
+    es: "<br><br>Soy desarrollador web autodidacta apasionado de la programación.<br>Actualmente me encuentro profundizando mis conocimientos dia tras dia lo que me permite descubrir este mundo lleno de nuevas tecnologías y disfutar afrontando nuevos retos.<br> Busco un <b>entorno desafiante</b> donde aplicar mis habilidades y <b>continuar creciendo</b> como desarrollador.<br> Tengo habilidades en <b>Python</b> , <b>JavaScript</b> , <b>React</b> , <b>HTML</b> , <b>CSS</b>.<br><br>",
+    en: "<br><br>I am a self-taught web developer with a passion for programming.<br>I am constantly expanding my knowledge, discovering new technologies, and enjoying tackling new challenges.<br>I am seeking a <b>challenging environment</b> where I can apply my skills and <b>continue to grow</b> as a developer.<br> My skills include <b>Python</b>, <b>JavaScript</b>, <b>React</b>, <b>HTML</b>, and <b>CSS</b>.<br><br>",
   }[language];
 
   document.getElementById("idioma-proy").innerHTML = {

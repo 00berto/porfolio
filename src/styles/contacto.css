@@ -78,6 +78,7 @@
 .phone-img,
 .github-img,
 .linkedin-img {
+    display: block;
     width: 100px;
     height: auto;
     padding: var(--space-sm);
