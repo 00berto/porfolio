@@ -2,14 +2,14 @@
 
 @import url(./var_root.css);
 
-/* Contacta conmigo 
+/* Contacta conmigo */
 .icono-content {
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 1fr;
     grid-template-rows: 1fr;
     -ms-grid-columns: 1fr, 1fr, 1fr;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
     gap: 30px;
     padding: auto;
     margin: auto;
@@ -62,7 +62,14 @@
     grid-row: 1;
     -ms-grid-column: 3;
     grid-column: 3;
-}*/
+}
+
+.linkedin {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 4;
+    grid-column: 4;
+}
 
 .gmail-img,
 .phone-img,
