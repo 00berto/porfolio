@@ -62,11 +62,12 @@
     grid-row: 1;
     -ms-grid-column: 3;
     grid-column: 3;
-}
+}*/
 
 .gmail-img,
 .phone-img,
-.github-img {
+.github-img,
+.linkedin-img {
     width: 100px;
     height: auto;
     padding: var(--space-sm);
@@ -75,8 +76,8 @@
 
 .icono-content img:hover {
     cursor: pointer;
-    /* Cambia il cursore a una mano 
-}*/
+    /* Cambia il cursore a una mano*/
+}
 
 .tooltip {
     position: relative;
