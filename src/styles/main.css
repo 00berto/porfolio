@@ -231,16 +231,16 @@ body {
 .porfolio img,
 .excel-image img {
     width: 100%;
-    max-width: 300px;
+    /*max-width: 300px;*/
     height: auto;
     object-fit: contain;
-    gap: var(--space-m);
+    /*gap: var(--space-m);
     -webkit-transition: -webkit-transform 0.3s ease;
     transition: -webkit-transform 0.3s ease;
     -o-transition: transform 0.3s ease;
     transition: transform 0.3s ease;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-    margin-bottom: 10px;
+    margin-bottom: 10px;*/
 }
 
 .game-image img:hover,
