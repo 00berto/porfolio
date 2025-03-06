@@ -288,7 +288,7 @@ function revelaSkill() {
   });
 }
 window.addEventListener("scroll", revelaSkill);
-revelaSkill();*/
+revelaSkill();
 
 const skillLeft = document.querySelectorAll(".left");
 const skillRight = document.querySelectorAll(".right");
@@ -326,3 +326,30 @@ function revelaSkill() {
 
 window.addEventListener("scroll", revelaSkill);
 revelaSkill();
+*/
+const skillLeft = document.querySelectorAll(".left");
+const skillRight = document.querySelectorAll(".right");
+
+const observerOptions = {
+  root: null,
+  rootMargin: "0px",
+  threshold: 0.1, // El elemento debe ser visible al menos un 10% para activar la animación
+};
+
+function onIntersection(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      if (entry.target.classList.contains("left")) {
+        entry.target.classList.add("animate__animated", "animate__fadeInLeft");
+      } else if (entry.target.classList.contains("right")) {
+        entry.target.classList.add("animate__animated", "animate__fadeInRight");
+      }
+      observer.unobserve(entry.target); // Dejar de observar el elemento después de la animación
+    }
+  });
+}
+
+const observer = new IntersectionObserver(onIntersection, observerOptions);
+
+skillLeft.forEach((left) => observer.observe(left));
+skillRight.forEach((right) => observer.observe(right));

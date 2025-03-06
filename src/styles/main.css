@@ -214,12 +214,9 @@ body {
 }*/
 
 .custom-img {
-    max-width: 300px;
-    /* No será más ancha que 300px */
+    max-width: auto;
     max-height: auto;
-    /* No será más alta que 200px */
     width: auto;
-    /* Mantiene proporciones */
     height: auto;
 }
 
