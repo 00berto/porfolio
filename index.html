@@ -57,7 +57,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card">
-                        <img src="./src/image/FEL-LA.png" class="card-img-top" alt="web pizzeria fella">
+                        <img src="./src/image/FEL-LA.png" class="card-img-top fella-image" alt="web pizzeria fella">
                         <div class="card-body text-center">
                             <a href="https://fella-vert.vercel.app/" target="_blank"
                                 class="btn fella-button custom-btn"></a>
@@ -75,7 +75,8 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="./src/image/Alien_Invasion_itch.png" class="card-img-top" alt="Juego Alien Invasion">
+                        <img src="./src/image/Alien_Invasion_itch.png" class="card-img-top game-image"
+                            alt="Juego Alien Invasion">
                         <p class="alien-p">Only Desktop Version</p>
 
                         <div class="card-body text-center">
@@ -87,7 +88,8 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="./src/image/excel-image.png" class="card-img-top" alt="Creador de Graficos">
+                        <img src="./src/image/excel-image.png" class="card-img-top excel-image"
+                            alt="Creador de Graficos">
                         <div class="card-body text-center">
                             <a href="https://generador-de-graficos.vercel.app/" target="_blank"
                                 class="btn custom-btn excel-button"></a>
@@ -98,11 +100,12 @@
         </section>
 
         <section class="contacto py-5 bg-light rest-content" style="display: none;">
+
             <h2 id="idioma-contacta"></h2>
 
-            <div class="d-flex justify-content-center gap-4 mt-4">
+            <div class="d-flex justify-content-center gap-4 mt-4 icono-content rest-content" style="display: none;">
 
-                <a class="linkedin tooltip" href="https://www.linkedin.com/in/alberto-zani-7b1b3b1b9/" target="_blank">
+                <a class="linkedin tooltip" href="https://www.linkedin.com/in/alberto-zani/" target="_blank">
                     <img src="./src/image/linkedin.svg" alt="Linkedin icon" width="40">
                     <span class="tooltiptext-linkedin">Tambien puede encontrarme el Linkedin</span>
                 </a>
@@ -124,10 +127,12 @@
             </div>
             <footer class="mt-5">
                 <p>Creado por <strong class="fw-bold">a-berto</strong></p>
-                <nav>
-                    <a href="#" class="mx-2">Español</a>
-                    <a href="#" class="mx-2">English</a>
+
+                <nav class="language-nav">
+                    <a href="#" data-lang="es">Español</a>
+                    <a href="#" data-lang="en">English</a>
                 </nav>
+
             </footer>
         </section>
     </div>
