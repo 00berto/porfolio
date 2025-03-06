@@ -230,11 +230,19 @@ function CambioIdioma(language) {
     en: "Call me at +34 600299584",
   }[language];
 
-  // Actualizar el texto del tooltip del ícono de Github
+  // Actualizar el texto del tooltip del ícono de Linkedin
   const githubTooltip = document.querySelector(".github .tooltiptext-github");
   githubTooltip.innerHTML = {
     es: "También puede encontrarme en Github",
     en: "You can also find me on Github",
+  }[language];
+
+  const linkedinTooltip = document.querySelector(
+    ".linkedin .tooltiptext-linkedin"
+  );
+  linkedinTooltip.innerHTML = {
+    es: "También puede encontrarme en Linkedin",
+    en: "You can also find me on Linkedin",
   }[language];
 }
 
