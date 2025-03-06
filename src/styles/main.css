@@ -242,9 +242,10 @@ body {
     -o-transition: transform 0.3s ease;
     transition: transform 0.3s ease;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-    margin-bottom: 10px;
+    margin-bottom: 10px;*/
 }
 
+/*
 .game-image img:hover,
 .fella img:hover,
 .porfolio img:hover,
@@ -257,141 +258,140 @@ body {
 
 
 
-    /* ---- footer ---- */
+/* ---- footer ---- */
 
-    .icon {
-        position: relative;
-        width: 100%;
-        max-width: 100px;
+.icon {
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 100px;
+    object-fit: contain;
+    padding: var(--space-sm);
+    margin: auto;
+}
+
+footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.a-berto {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+
+}
+
+.language-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.language-nav a:hover {
+    background-color: var(--fondo);
+    color: var(--color_beige_chiaro);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+/* --------- MEDIA QUERY --------- */
+
+@media screen and (orientation: landscape) {
+    h1 {
+        font-size: var(--font-size-16p);
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+
+    .portada {
+        height: auto;
+        min-height: auto;
+
+    }
+}
+
+@media screen and (max-width:650px) {
+    .grid-proyectos {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: var(--font-size-20p);
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+
+    .portada {
         height: 100%;
-        max-height: 100px;
-        object-fit: contain;
-        padding: var(--space-sm);
+        min-height: auto;
+
+    }
+}
+
+@media screen and (min-width:651px) and (max-width: 799px) {
+
+    .grid-proyectos {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    h1 {
+        font: size 1.65em;
+    }
+
+    .portada {
+        height: 100%;
+        min-height: auto;
+
+    }
+
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .grid-proyectos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .portada-h {
         margin: auto;
     }
 
-    footer {
-        display: inline-block;
-        margin-bottom: 16px;
-    }
-
-    .a-berto {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
-
-    }
-
-    .language-nav {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .language-nav a:hover {
-        background-color: var(--fondo);
-        color: var(--color_beige_chiaro);
-        border-radius: 5px;
-        padding: 3px;
-    }
-
-    /* --------- MEDIA QUERY --------- */
-
-    @media screen and (orientation: landscape) {
-        h1 {
-            font-size: var(--font-size-16p);
-        }
-
-        h4 {
-            font-size: 1em;
-        }
-
-        .portada {
-            height: auto;
-            min-height: auto;
-
-        }
-    }
-
-    @media screen and (max-width:650px) {
-        .grid-proyectos {
-            -ms-grid-columns: 1fr;
-            grid-template-columns: 1fr;
-        }
-
-        h1 {
-            font-size: var(--font-size-20p);
-        }
-
-        h4 {
-            font-size: 1.1em;
-        }
-
-        .portada {
-            height: 100%;
-            min-height: auto;
-
-        }
-    }
-
-    @media screen and (min-width:651px) and (max-width: 799px) {
-
-        .grid-proyectos {
-            -ms-grid-columns: 1fr;
-            grid-template-columns: 1fr;
-        }
-
-        h4 {
-            font-size: 1.3em;
-        }
-
-        h1 {
-            font: size 1.65em;
-        }
-
-        .portada {
-            height: 100%;
-            min-height: auto;
-
-        }
-
+    h1,
+    .titulo {
+        font-size: var(--font-size-36p);
     }
 
 
-    @media screen and (min-width: 800px) {
-
-        .grid-proyectos {
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        .portada-h {
-            margin: auto;
-        }
-
-        h1,
-        .titulo {
-            font-size: var(--font-size-36p);
-        }
+    h2 {
+        font-size: var(--font-size-32p);
+    }
 
 
-        h2 {
-            font-size: var(--font-size-32p);
-        }
-
-
-        h4 {
-            font-size: var(--font-size-24p);
-            padding: auto;
-        }
+    h4 {
+        font-size: var(--font-size-24p);
+        padding: auto;
+    }
 
 
 
-        p,
-        button,
-        .skills-p {
-            font-size: var(--font-size-18p);
-        }
+    p,
+    button,
+    .skills-p {
+        font-size: var(--font-size-18p);
+    }
 
-        /*
+    /*
     .porfolio img {
         -ms-grid-row: 1;
         grid-row: 1;
@@ -418,47 +418,47 @@ body {
         grid-row: 1;
         -ms-grid-column: 4;
         grid-column: 4;
+    }*/
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    h1,
+    .titulo {
+        font-size: var(--font-size-48p);
     }
-*/
+
+
+    h2 {
+        font-size: var(--font-size-36p);
     }
 
 
-    @media screen and (min-width: 1024px) {
-
-        h1,
-        .titulo {
-            font-size: var(--font-size-48p);
-        }
-
-
-        h2 {
-            font-size: var(--font-size-36p);
-        }
-
-
-        h4 {
-            font-size: var(--font-size-32p);
-            padding: auto;
-        }
-
-        p,
-        button {
-            font-size: var(--font-size-20p);
-        }
-
-        .grid {
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        }
-
-        .grid-proyectos {
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        }
-
-        .game-image img,
-        .fella img,
-        .porfolio img,
-        .excel-image img {
-            max-width: 100%;
-        }
-
+    h4 {
+        font-size: var(--font-size-32p);
+        padding: auto;
     }
+
+    p,
+    button {
+        font-size: var(--font-size-20p);
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+    .grid-proyectos {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+
+    .game-image img,
+    .fella img,
+    .porfolio img,
+    .excel-image img {
+        max-width: 100%;
+    }
+
+}
