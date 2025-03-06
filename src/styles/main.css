@@ -201,22 +201,23 @@ body {
 
 
 
-/*.porfolio,
+.porfolio,
 .game-image,
 .fella,
 .excel-image {
-    display: -webkit-box;
+    /*    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: column;*/
     cursor: pointer;
+    /*
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-}*/
+    align-items: center;*/
+}
 
 .custom-img {
     max-width: auto;
@@ -230,9 +231,9 @@ body {
 .fella img,
 .porfolio img,
 .excel-image img {
-    width: 100%;
-    /*max-width: 300px;*/
-    height: auto;
+    /*width: 100%;
+    max-width: 300px;
+    height: 100%;*/
     object-fit: contain;
     /*gap: var(--space-m);
     -webkit-transition: -webkit-transform 0.3s ease;
@@ -259,7 +260,8 @@ body {
 
 .icon {
     width: 100px;
-    height: auto;
+    height: 100px;
+    object-fit: contain;
     padding: var(--space-sm);
     margin: auto;
 }
