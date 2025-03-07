@@ -132,7 +132,15 @@ body {
 
 .skills-p {
     list-style-type: none;
+    display: flex;
 }
+
+.download-cv {
+    display: inline-block !important; /* Para forzar que se vean */
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
 
 
 /* ---- Proyectos ---- */
