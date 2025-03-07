@@ -101,8 +101,7 @@ body {
 .portada::before,
 .proyectos::before {
     content: "";
-    /*position: absolute;*/
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
