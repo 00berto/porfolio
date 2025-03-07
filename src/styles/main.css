@@ -265,7 +265,9 @@ footer {
         font-size: 1em;
     }
     .skills{
-        height: vh100;
+        
+        min-height: 100vh;
+        overflow-y: auto;
     }
 
     .portada {
@@ -289,7 +291,9 @@ footer {
         font-size: 1.1em;
     }
     .skills{
-        height: vh100;
+        
+        min-height: 100vh;
+        overflow-y: auto;
     }
     .portada {
         /*height: 100%;
