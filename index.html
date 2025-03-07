@@ -31,20 +31,24 @@
             <h4 class="portada-h rest-content" id="idioma" style="display: none;">
         </section>
 
-        <section class="skills rest-content h-100 text-center" style="display: none;">
+        <section class="skills rest-content p-auto text-center" style="display: none;">
 
             <h2>MY SKILLS</h2>
             <ul class="skills-p" id="idioma-skill"></ul>
 
             <div class="d-flex justify-content-center gap-3 mt-4">
 
-                <a class="btn custom-btn download-cv"
-                    href="https://raw.githubusercontent.com/00berto/porfolio/main/A-bertoCV.pdf" download>Descarga mi CV
-                </a>
+                <div>
+                    <button type="button" class="btn btn-lg custom-btn download-cv"
+                        href="https://raw.githubusercontent.com/00berto/porfolio/main/A-bertoCV.pdf" download>Descarga
+                        mi CV
+                    </button>
 
-                <a href="https://raw.githubusercontent.com/00berto/porfolio/main/A-bertoCV_eng.pdf" download
-                    class="btn custom-btn download-cv">Download my CV
-                </a>
+                    <button type="button" class="btn btn-lg custom-btn download-cv"
+                        href="https://raw.githubusercontent.com/00berto/porfolio/main/A-bertoCV_eng.pdf"
+                        download>Download my CV
+                    </button>
+                </div>
 
             </div>
 
@@ -124,49 +128,48 @@
 
             <h2 id="idioma-contacta"></h2>
 
-            <div class="row row-cols-1 row-cols-md-2 g-1 px-5 justify-content-center">
+            <div class="row row-cols-1 row-cols-md-4 g-1  justify-content-center">
                 <div class="col d-flex flex-column align-items-center">
-                    <img class="linkedin-img mb-2" src="./src/image/linkedin.svg" alt="" aria-hidden="true" width="40"
-                        id="linkedin-img-desc">
-                    <a class="linkedin" href="https://www.linkedin.com/in/alberto-zani/" target="_blank"
-                        rel="noopener noreferrer" aria-label="Mi perfil de LinkedIn"
-                        aria-describedby="linkedin-img-desc">
+                    <button class="linkedin-button"
+                        onclick="window.open('https://www.linkedin.com/in/alberto-zani/', '_blank', 'noopener, noreferrer');"
+                        aria-label="Mi perfil de LinkedIn">
+                        <img class="linkedin-img" src="./src/image/linkedin.svg" alt="" aria-hidden="true" width="40">
                         <span class="text text-center">LinkedIn</span>
-                    </a>
+                    </button>
                 </div>
 
                 <div class="col d-flex flex-column align-items-center">
-                    <img class="gmail-img mb-2" src="./src/image/official-gmail.svg" alt="" aria-hidden="true"
-                        width="40" id="gmail-img-desc">
-                    <a class="gmail" href="mailto:zani.alberto@gmail.com" rel="noopener noreferrer"
-                        aria-label="Enviar un correo electrónico" aria-describedby="gmail-img-desc">
+                    <button class="gmail-button" onclick="window.location.href = 'mailto:zani.alberto@gmail.com';"
+                        aria-label="Enviar un correo electrónico">
+                        <img class="gmail-img" src="./src/image/official-gmail.svg" alt="" aria-hidden="true"
+                            width="40">
                         <span class="text text-center">zani.alberto@gmail.com</span>
-                    </a>
+                    </button>
                 </div>
 
                 <div class="col d-flex flex-column align-items-center">
-                    <img class="phone-img mb-2" src="./src/image/smartphone_mano.png" alt="" aria-hidden="true"
-                        width="40" id="phone-img-desc">
-                    <a class="phone" href="tel:+34600299584" rel="noopener noreferrer"
-                        aria-label="Llamar al número de teléfono" aria-describedby="phone-img-desc">
-                        <span class=" text text-center">+34600299584</span>
-                    </a>
+                    <button class="phone-button" onclick="window.location.href = 'tel:+34600299584';"
+                        aria-label="Llamar al número de teléfono">
+                        <img class="phone-img" src="./src/image/smartphone_mano.png" alt="" aria-hidden="true"
+                            width="40">
+                        <span class="text text-center">+34600299584</span>
+                    </button>
                 </div>
 
                 <div class="col d-flex flex-column align-items-center">
-                    <a class="github" href="https://github.com/00berto" target="_blank" rel="noopener noreferrer"
-                        aria-label="Mi perfil de GitHub" aria-describedby="github-img-desc" <img class="github-img mb-2"
-                        src="./src/image/github.svg" alt="" aria-hidden="true" width="40" id="github-img-desc">
-                        >
-                        <span class=" text text-center">GitHub</span>
-                    </a>
+                    <button class="github-button"
+                        onclick="window.open('https://github.com/00berto', '_blank', 'noopener, noreferrer');"
+                        aria-label="Mi perfil de GitHub">
+                        <img class="github-img" src="./src/image/github.svg" alt="" aria-hidden="true" width="40">
+                        <span class="text text-center">GitHub</span>
+                    </button>
                 </div>
             </div>
         </section>
 
         <!--footer -->
 
-        <footer class="py-3">
+        <footer class="py-2">
             <p>Creado por <strong class="fw-bold">a-berto</strong></p>
 
             <nav class="language-nav rest-content text-center" style="display: none;">
