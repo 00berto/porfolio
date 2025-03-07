@@ -124,7 +124,8 @@ body {
     width: 100%;
     height: 100%;
     color: var(--fondo);
-    overflow: hidden;
+    overflow-x: hidden;
+    z-index: 2
 }
 
 .skills-p {
