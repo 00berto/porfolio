@@ -126,6 +126,7 @@ body {
 
 .skills-p {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .download-cv {
@@ -291,9 +292,17 @@ footer {
     }
 
     .skills {
-
+        padding-top: 3rem;
         min-height: 100vh;
         overflow: hidden;
+    }
+
+    .skills-p {
+        padding: 2rem;
+    }
+
+    .skills-carosel {
+        padding-top: 2rem;
     }
 
     .portada {
