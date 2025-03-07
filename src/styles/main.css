@@ -284,8 +284,10 @@ footer {
     }
 
     .portada {
-        height: 100%;
-        /*min-height: auto;*/
+        /*height: 100%;
+        min-height: auto;*/
+        min-height: 100vh;
+        overflow: hidden;
 
     }
 }
@@ -305,9 +307,16 @@ footer {
         font: size 1.65em;
     }
 
-    .portada {
+    /*.portada {
         height: 100%;
         min-height: auto;
+
+    }*/
+    .portada {
+        /*height: 100%;
+        min-height: auto;*/
+        min-height: 100vh;
+        overflow: hidden;
 
     }
 
