@@ -179,6 +179,10 @@ body {
     color: var(--color_beige_chiaro);
 }
 
+.img-porfolio{
+    color: var(--fondo);
+}
+
 .aliendiv {
     position: relative;
     display: flex;
