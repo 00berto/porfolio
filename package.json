@@ -6,9 +6,11 @@
     "node": "20.x"
   },
   "scripts": {
-    "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "prebuild": "chmod +x ./node_modules/.bin/vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postinstall": "chmod +x ./node_modules/.bin/vite"
   },
   "keywords": [],
   "author": "",
