@@ -1,13 +1,13 @@
 # 💻 Mi Portafolio Personal
 
-Bienvenido a mi portafolio. Aquí encontrarás alguno de mis proyectos, que demuestran mis habilidades como programador.
+Bienvenido a mi portafolio. Aquí encontrarás alguno de mis proyectos.
 
 ---
 
 ### 🚀 Tecnologías que domino
 
-* **Frontend**: HTML5, CSS3, JavaScript, React, Bootstrap, Vue.js.
-* **Backend**: Node.js, Python, Java.
+* **Frontend**: HTML5, CSS3, JavaScript, React, Bootstrap.
+* **Backend**: Python, Java.
 * **Bases de Datos**: SQL, mySQL.
 * **Herramientas y plataformas**: Git, GitHub, VS Code, Vercel.
 * **Sistemas**: Windows, Linux.
@@ -16,7 +16,7 @@ Bienvenido a mi portafolio. Aquí encontrarás alguno de mis proyectos, que demu
 
 ### ✨ Mis proyectos destacados
 
-Aquí están algunos de los proyectos en los que he trabajado. Siéntete libre de explorarlos y ver su código.
+Aquí están algunos de los proyectos en los que he desarollado. 
 
 #### 0. Porfolio Personal
 _Mi porfolio personal_
@@ -26,13 +26,13 @@ _Mi porfolio personal_
 
 #### 1. WEB Aberto Web Design 
 _Landing page de Aberto Web Design_
-* **Tecnologías usadas**: JavaScript puro, HTML, Bootstrap, CSS y implementacion para SEO.
+* **Tecnologías usadas**: JavaScript, HTML, Bootstrap, CSS y implementacion para SEO.
 * **Ver proyecto en vivo**: Puedes visitarlo en: [aberto.es](https://aberto.es)
 
 
 #### 2. WEB Tamara Martinez
 _Landing page de Tamara Martinez_
-* **Tecnologías usadas**: JavaScript puro, HTML, Bootstrap, CSS y implementacion para SEO.
+* **Tecnologías usadas**: JavaScript, HTML, Bootstrap, CSS y implementacion para SEO.
 * **Ver proyecto en vivo**:Puedes visitarlo en: [tamaramartinez.es](www.tamaramartinez.es)
 
 
@@ -49,7 +49,7 @@ _Generador de Graficos_
 
 ### 📬 Conéctate conmigo
 
-Estoy siempre abierto a nuevas oportunidades y colaboraciones. Si te interesa mi trabajo, no dudes en contactarme.
+Estoy siempre abierto a nuevas oportunidades y colaboraciones. No dudes en contactarme.
 
 * **Tu Sitio Web**: [Aberto Web Design](https://www.aberto.es) - [Email](aberto.webdesign@gmail.com)
 * **LinkedIn**: [Linkedin](http://www.linkedin.com/in/alberto-zani)
